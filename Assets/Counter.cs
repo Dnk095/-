@@ -11,11 +11,12 @@ public class Counter : MonoBehaviour
 
     private Coroutine _coroutine;
 
-    private bool _isActive = true;
+    private bool _isActive;
 
     private void Start()
     {
         _text.text = "";
+        _isActive = false;
     }
 
     private void OnEnable()
