@@ -30,8 +30,6 @@ public class Counter : MonoBehaviour
 
     private void EventReaction()
     {
-        Debug.Log("нажали кнопку");
-
         if (_isActive)
         {
             _isActive = false;
